@@ -104,11 +104,11 @@ main {
 }
 
 aside:nth-child(1) {
-    flex: 0 0 100px; background-color: beige;
+    flex: 0 0 150px; background-color: beige;
 }
 
 aside:nth-child(3) {
-    flex: 0 0 100px; background-color: beige;
+    flex: 0 0 150px; background-color: beige;
 }
 
 article {
