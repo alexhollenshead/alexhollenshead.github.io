@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: #cc5500;
 }
 
 li, a, button {
@@ -24,19 +24,23 @@ header {
 
 .logo {
     cursor: pointer;
+    background-color: #cc5500;
 }
 
 .social-icon {
     list-style: none;
+    background-color: #cc5500;
 }
 
 .social-icon li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
+    background-color: #cc5500;
 }
 
 .social-icon li a {
     transition: all 0.3s ease 0s;
+    background-color: #cc5500;
 }
 
 .social-icon li a:hover {
@@ -45,15 +49,19 @@ header {
 
 .nav__links {
     list-style: none;
+    background-color: #cc5500;
 }
 
 .nav__links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
+    margin-left: 20px;
+    background-color: #cc5500;
 }
 
 .nav__links li a {
     transition: all 0.3s ease 0s;
+    background-color: #cc5500;
 }
 
 .nav__links li a:hover {
@@ -71,4 +79,72 @@ button {
 
 button:hover {
     background-color: rgba(0,136,169,0.8);
+}
+
+ h3{
+    color: rgb(0, 0, 0);
+	font-weight: 100;
+	font-size: 40px;
+	margin: 40px 0px 20px;
+    font-variant: small-caps;
+    font-family: "Montserrat", sans-serif;
+    background-color: beige;
+    margin-top: 175px;
+}
+
+    * {margin: 0; padding: 0; border: 0; box-sizing: border-box;}
+
+header {
+    background-color: #cc5500; min-height: 100px;
+}
+
+main {
+    background-color: white; min-height: 500px;
+    display: flex; flex-flow: row wrap;
+}
+
+aside:nth-child(1) {
+    flex: 0 0 100px; background-color: beige;
+}
+
+aside:nth-child(3) {
+    flex: 0 0 100px; background-color: beige;
+}
+
+article {
+    flex: 1 0 auto; background-color: beige; font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    background-color: beige; min-height: 100px;
+}
+
+div {
+    background-color: beige;
+}
+
+h2 {
+    background-color: beige;
+}
+
+p {
+    background-color: beige;
+    margin-bottom: 100px;
+}
+
+body {
+    background-color: beige;
+}
+
+nftart-mint-button.hydrated {
+    background-color: #cc5500;
+}
+
+div.nft-art-gen-section {
+    background-color: #cc5500;
+}
+
+div.nft-art-gen-mint-progress {
+    color: #cc5500;
+    background-color: #cc5500;
 }
